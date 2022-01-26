@@ -1,0 +1,79 @@
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-4" id="left-column">
+      <h1><a href="https://www.freecodecamp.com/challenges/build-a-javascript-calculator">freeCodeCamp: Build a JavaScript Calculator</a>
+      </h1>
+      <i>
+      <p>
+        Your Assignment: Build a CodePen.io app that is functionally similar to this: <a href="https://codepen.io/FreeCodeCamp/full/zrRzMR">https://codepen.io/FreeCodeCamp/full/zrRzMR.</a>
+      </p>
+      <p>
+        Rule #1: Don't look at the example project's code. Figure it out for yourself.
+        </br>
+        Rule #2: Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+      <ul>
+        <li>User Story: I can add, subtract, multiply and divide two numbers.</li>
+          <li>
+            User Story: I can clear the input field with a clear button.</li>
+            <li>
+              User Story: I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output.</li>
+      </ul></p>
+    </i></div><!--left column-->
+
+    <div class="col-sm-4"><!--middle column-->
+
+      <div id="calculator">
+        
+          <button id="screen" value="empty">0</button>
+        <button id="clear" value="clear" type="button">C</button>
+               
+          <button id="7" value="7" type="button">7</button>
+          <button id="8" value="8" type="button">8</button>
+          <button id="9" value="9" type="button">9</button>
+          <button id="+" value="+" type="button">+</button>
+
+          <button id="4" value="4" type="button">4</button>
+          <button id="5" value="5" type="button">5</button>
+          <button id="6" value="6" type="button">6</button>
+          <button id="-" value="-" type="button">-</button>
+   
+          <button id="1" value="1" type="button">1</button>
+          <button id="2" value="2" type="button" >2</button>
+          <button id="3" value="3" type="button">3</button>
+          <button id="/" value="/" type="button">/</button>
+ 
+          <button id="0" value="0" type="button">0</button>
+          <button id="." value="." type="button">.</button>
+          <button id="equals" value="=" type="button">=</button>
+          <button id="x" value="*" type="button">x</button>
+        
+      </div><!--calculator div ends-->
+      <div><img id="mahkh-sheh-VOHN" class="img-responsive" src="http://762315560.r.lightningbase-cdn.com/wp-content/uploads/2012/08/calculator.png"></div>
+    </div><!--middle column ends-->
+    <div class="col-sm-4" id="right-column">
+      <!--right column-->
+      <p>My self-chatter:</p>
+      <p>We are, weirdly enough, not supposed to look at the model code, so I am looking around the internet instead.</p>
+      <p><a href="http://thecodeplayer.com/walkthrough/javascript-css3-calculator">This one</a>, by Kushagra Agarwal on thecodeplayer.com, is pretty cool. Amazing to watch a fluent CSS worker in motion.
+      </p>
+        <p>
+      Other people offering to teach a calculator exercise:
+      <ul>
+        <li><a href="https://www.codecademy.com/courses/web-intermediate-en-jfhjJ/0/1">Codecademy I</a> (with <a href="https://www.codecademy.com/forums/web-intermediate-en-jfhjJ/0">forum</a>)</li>
+        <li><a href="https://www.codecademy.com/courses/web-advanced-en-x6JWW/0/1">Codecademy II</a></li>
+        <li><a href="http://www.theodinproject.com/javascript-and-jquery/on-screen-calculator">Odin Project</a></li>
+      </ul></p>
+      <p>No one seems super worried about error cases: the user inputting several operators or decimal points in a row, dividing by zero, quirks of Javascript binary/decimal conversions (1.0-0.9 != .1), etc. Some are addressed, some not, in various models online. I'm going to put that outside the scope of this beginner exercise for now.</p>
+      <p>
+      Nor does this "user story" spec actually request a separate "C" and "CE" function, nor a "%", despite their presence in the model.
+      <p>
+      <p>There also seems to be a general proposal that you should just allow the user to use to buttons to input an expression of any length (2+3-4*5/2 etc etc), and then just 'eval' the expression string when they press the equals key. Okay, that's probably more modern, in terms of actual calculator apps. But as a coding exercise I am going to try for something more old school: just two inputs, plus an operator,at a time. For my coding exercise I'm going to try implementing it without the long input strings.</p><p>
+      I might also try avoiding the 'eval' function. Although I guess it's not a security hazard if the user cannot pass it uncontrolled arguments, it still seems a bit like cheating.</p>
+<hr>
+<p>Anyway. Lots of little features to add and things I would like to clean up, but for now I am going to plough on with my FCCamp overview education... This is was first thing I've really built, and it was a super helpful exercise. And fun.</p>
+    
+    </div>
+  </div>
+  <!--main row-->
+</div>
+<!--container-->

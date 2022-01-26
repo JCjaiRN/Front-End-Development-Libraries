@@ -1,0 +1,52 @@
+body {
+  margin-top: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+button {
+ margin: 1%;
+  width: 20%;
+  overflow: hidden;
+}
+
+
+#calculator {
+  background: blue;
+  border-radius: 1em;
+  max-width: 200px;
+  margin: auto;
+  padding: 1em;
+  
+}
+
+#screen {
+  background-color: lightgreen;
+  width: 70%;
+  text-align: right;
+}
+
+#clear {
+  background-color: green;
+}
+#equals {
+  background-color:yellow;
+}
+
+#left-column {
+  background-color: lightblue;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+#right-column{
+  background-color: mistyrose;
+  border-radius: 1em;
+}
+
+#mahkh-sheh-VOHN {
+  margin-top: 20%;
+  max-width: 30%;
+  float: right;
+}
+
