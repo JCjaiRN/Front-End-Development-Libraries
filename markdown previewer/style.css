@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: burlywood;
+}
+
+.textarea{
+    width: 100%;
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 0px 20px;
+    outline: none;
+}
+
+.textarea:focus{
+    box-shadow: 0px 0px 3px 3px brown;
+}
+#preview{
+    padding: 40px;
+    text-align: left;
+    background-color: cadetblue;
+    color: darkmagenta;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 20px 0px;
+
+}
+#preview code{
+    background-color: gray;
+    border-radius: 4px;
+    padding: 5px 0px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+#preview pre{
+    background-color: gray;
+    padding: 10px;
+}
